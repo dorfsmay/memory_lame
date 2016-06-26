@@ -3,7 +3,7 @@
 #include <string.h>
 
 
-int main(void) {
+int main(int argc, char *argv[]) {
     long chunk = 536870912;
     long mem_in_bytes;
     short n;
