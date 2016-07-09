@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[]) {
     long chunk = 536870912;
-    long mem_in_bytes;
+    unsigned long mem_in_bytes;
     short n;
     void* got;
 
