@@ -7,10 +7,10 @@ The default value (if no argument) is 7 (3.5 GiB).
 Check how much memory is available before you run it ; if your physical memory
 is alreay allocated and you have enough swap enable... well, it will swap!
 
-## H4 Linux
+## Linux
 It should just work!
 
-## H4 Solaris
+## Solaris
 On Solaris 10, gcc produces a 32 executable by default, use `-m64`:
 
     export CC=gcc
