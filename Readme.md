@@ -11,7 +11,7 @@ is alreay allocated and you have enough swap enable... well, it will swap!
 It should just work!
 
 ## Solaris
-On Solaris 10, gcc produces a 32 executable by default, use `-m64`:
+On Solaris 10, gcc produces a 32 bit executable by default, use `-m64`:
 
     export CC=gcc
     export CFLAGS='-m64'
